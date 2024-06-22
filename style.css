@@ -114,7 +114,7 @@ body {
 }
 
 #hero {
-  background-image: url("hero.jpg");
+  background-image: url("img/hero.jpg");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -127,7 +127,7 @@ body {
 }
 #hero h4 {
   padding-bottom: 10px;
-  color: #000;
+  color: #1a1a1a;
 }
 #hero h1 {
   color: #ecf0f1;
@@ -135,23 +135,6 @@ body {
 #hero p {
   padding-bottom: 25px;
   color: #ecf0f1;
-}
-#hero button {
-  background-image: url("button.png");
-  background-color: transparent;
-  color: #000;
-  border: 0;
-  padding: 14px 80px 14px 65px;
-  background-repeat: no-repeat;
-  cursor: pointer;
-  font-weight: 700;
-  font-size: 15px;
-}
-
-#btn:hover {
-  color: #fff;
-  background-color: transparent;
-  border-radius: 20px;
 }
 
 #product1 {
@@ -189,20 +172,6 @@ body {
   text-align: start;
   padding: 10px 0;
 }
-#product1 .pro a {
-  height: 40px;
-  width: 40px;
-  line-height: 40px;
-  border-radius: 50px;
-  background-color: #ecf0f1;
-  font-weight: 500;
-  color: #267575;
-  border: 1px solid #cce7d0;
-  position: absolute;
-  bottom: 20px;
-  right: 10px;
-  padding: 2px;
-}
 #product1 .pro .des span {
   color: #606063;
   font-size: 12px;
@@ -221,7 +190,7 @@ body {
   padding-top: 7px;
   font-size: 15px;
   font-weight: 700;
-  color: #34495e;
+  color: #088178;
 }
 
 #banner {
@@ -417,37 +386,14 @@ footer .copyright {
 }
 #prodetails .single-pro-details span {
   color: #606063;
+  line-height: 25px;
 }
 #prodetails .single-pro-details h4 {
   padding: 20px 0 10px 0;
 }
 #prodetails .single-pro-details h2 {
   font-size: 26px;
-}
-#prodetails .single-pro-details select {
-  display: block;
-  padding: 5px 10px;
-  margin-bottom: 10px;
-}
-#prodetails .single-pro-details input {
-  width: 50px;
-  height: 47px;
-  padding-left: 10px;
-  font-size: 16px;
-  margin-right: 10px;
-}
-#prodetails .single-pro-details input:focus {
-  outline: none;
-}
-#prodetails .single-pro-details button {
-  background: #088178;
-  color: #fff;
-}
-#prodetails .single-pro-details button:hover {
-  color: #000;
-}
-#prodetails .single-pro-details span {
-  line-height: 25px;
+  color: #088178;
 }
 
 /* About Page */
@@ -535,104 +481,6 @@ footer .copyright {
   height: 100%;
 }
 
-/* Cart Page */
-
-#page-header.cart-header {
-  background-image: url("banner3.jpg");
-  background-position: 0 50%;
-}
-#page-header.cart-header h2,
-#page-header.cart-header p {
-  color: #1a1a1a;
-}
-
-#cart {
-  overflow-x: auto;
-}
-#cart table {
-  width: 100%;
-  border-collapse: collapse;
-  table-layout: fixed;
-  white-space: nowrap;
-}
-#cart table img {
-  width: 70px;
-}
-#cart table td:nth-child(1) {
-  width: 100px;
-  text-align: center;
-}
-#cart table td:nth-child(2) {
-  width: 150px;
-  text-align: center;
-}
-#cart table td:nth-child(3) {
-  width: 250px;
-  text-align: center;
-}
-#cart table td:nth-child(4),
-#cart table td:nth-child(5),
-#cart table td:nth-child(6) {
-  width: 150px;
-  text-align: center;
-}
-#cart table td:nth-child(5) input {
-  width: 70px;
-  padding: 10px 5px 10px 15px;
-}
-#cart table thead {
-  border: 1px solid #222;
-  border-left: none;
-  border-right: none;
-}
-#cart table thead td {
-  font-weight: 700;
-  text-transform: uppercase;
-  font-size: 13px;
-  padding: 18px 0;
-}
-#cart table tbody tr td {
-  padding-top: 15px;
-}
-#cart table tbody td {
-  font-size: 13px;
-}
-#cart table tbody i {
-  color: #1a1a1a;
-}
-#cart table tbody i:hover {
-  color: #088178;
-}
-
-#subtotal {
-  width: 50%;
-  margin-bottom: 30px;
-  border: 1px solid #222;
-  padding: 30px;
-}
-#subtotal table {
-  border-collapse: collapse;
-  width: 100%;
-  margin-bottom: 20px;
-}
-#subtotal table td {
-  width: 50%;
-  border: 1px solid #222;
-  padding: 10px;
-  font-size: 13px;
-}
-#subtotal h3 {
-  padding-bottom: 15px;
-}
-#subtotal button {
-  background-color: #088178;
-  color: #fff;
-  padding: 12px 20px;
-}
-#subtotal button:hover {
-  color: #000;
-}
-
 /* Start Media Query */
 
 @media (max-width: 799px) {
@@ -679,7 +527,6 @@ footer .copyright {
   #mobile i {
     color: #1a1a1a;
     font-size: 24px;
-    padding-left: 20px;
   }
 
   #close {
@@ -689,10 +536,6 @@ footer .copyright {
     left: 30px;
     color: #1a1a1a;
     font-size: 24px;
-  }
-
-  #lg-bag {
-    display: none;
   }
 
   #hero {
@@ -735,12 +578,6 @@ footer .copyright {
 
   #page-header.contact-header {
     background-position: 60% 0;
-  }
-
-  /* Cart Page */
-
-  #page-header.cart-header {
-    background-position: 50% 50%;
   }
 }
 
@@ -836,16 +673,5 @@ footer .copyright {
   }
   #contact-details .map {
     width: 100%;
-  }
-
-  /* Cart Page */
-
-  #page-header.cart-header {
-    background-position: 0% 50%;
-  }
-
-  #subtotal {
-    width: 100%;
-    padding: 20px;
   }
 }
