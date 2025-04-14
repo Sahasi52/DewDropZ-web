@@ -1,3 +1,3 @@
 # DewDropZ
 
-A new HTML, CSS, JavaScript project.
+A HTML, CSS, JavaScript project.
