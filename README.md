@@ -2,4 +2,4 @@
 
 A simple and responsive e-commerce front-end project built with **HTML**, **CSS**, and **JavaScript**.
 
-![Logo](./logo.png)
+![Logo](./logo2.png)
